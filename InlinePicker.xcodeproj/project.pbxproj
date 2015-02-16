@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2667C8321A91F0C000E42127 /* InlinePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2667C8311A91F0C000E42127 /* InlinePickerTests.m */; };
+		26717B7E1A8A80DC00B9D35E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26717B7D1A8A80DC00B9D35E /* AppDelegate.swift */; };
+		26717B831A8A80DC00B9D35E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26717B811A8A80DC00B9D35E /* Main.storyboard */; };
+		26717B851A8A80DC00B9D35E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26717B841A8A80DC00B9D35E /* Images.xcassets */; };
+		26717B881A8A80DC00B9D35E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26717B861A8A80DC00B9D35E /* LaunchScreen.xib */; };
+		26717B9E1A8A812700B9D35E /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26717B9D1A8A812700B9D35E /* MyTableViewController.swift */; };
+		26717BA01A8A82C400B9D35E /* DatePickerValueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26717B9F1A8A82C400B9D35E /* DatePickerValueCell.swift */; };
+		26717BA21A8A82DE00B9D35E /* SimpleInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26717BA11A8A82DE00B9D35E /* SimpleInfoCell.swift */; };
+		26717BA41A8A82F200B9D35E /* DatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26717BA31A8A82F200B9D35E /* DatePickerCell.swift */; };
+		26717BA61A8A830400B9D35E /* CustomPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26717BA51A8A830400B9D35E /* CustomPickerCell.swift */; };
+		26717BA81A8A834A00B9D35E /* MyDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26717BA71A8A834A00B9D35E /* MyDataSource.swift */; };
+		26717BAA1A8A83C200B9D35E /* StoryboardIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26717BA91A8A83C200B9D35E /* StoryboardIdentifiers.swift */; };
+		26717BAC1A8A9FF500B9D35E /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26717BAB1A8A9FF500B9D35E /* UIKitExtensions.swift */; };
+		26717BB21A8B430E00B9D35E /* CustomPickerValueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26717BB11A8B430E00B9D35E /* CustomPickerValueCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26717B8E1A8A80DC00B9D35E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26717B701A8A80DC00B9D35E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26717B771A8A80DC00B9D35E;
+			remoteInfo = InlinePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2667C8311A91F0C000E42127 /* InlinePickerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InlinePickerTests.m; sourceTree = "<group>"; };
+		26717B781A8A80DC00B9D35E /* InlinePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InlinePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26717B7C1A8A80DC00B9D35E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26717B7D1A8A80DC00B9D35E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26717B821A8A80DC00B9D35E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26717B841A8A80DC00B9D35E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26717B871A8A80DC00B9D35E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		26717B8D1A8A80DC00B9D35E /* InlinePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InlinePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26717B921A8A80DC00B9D35E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26717B9D1A8A812700B9D35E /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		26717B9F1A8A82C400B9D35E /* DatePickerValueCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerValueCell.swift; sourceTree = "<group>"; };
+		26717BA11A8A82DE00B9D35E /* SimpleInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleInfoCell.swift; sourceTree = "<group>"; };
+		26717BA31A8A82F200B9D35E /* DatePickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerCell.swift; sourceTree = "<group>"; };
+		26717BA51A8A830400B9D35E /* CustomPickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerCell.swift; sourceTree = "<group>"; };
+		26717BA71A8A834A00B9D35E /* MyDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDataSource.swift; sourceTree = "<group>"; };
+		26717BA91A8A83C200B9D35E /* StoryboardIdentifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardIdentifiers.swift; sourceTree = "<group>"; };
+		26717BAB1A8A9FF500B9D35E /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		26717BB11A8B430E00B9D35E /* CustomPickerValueCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerValueCell.swift; sourceTree = "<group>"; };
+		9ABAE7F7E9C0E71B5E1511E6 /* libPods-InlinePickerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InlinePickerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26717B751A8A80DC00B9D35E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26717B8A1A8A80DC00B9D35E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26717B6F1A8A80DC00B9D35E = {
+			isa = PBXGroup;
+			children = (
+				26717B7A1A8A80DC00B9D35E /* InlinePicker */,
+				26717B901A8A80DC00B9D35E /* InlinePickerTests */,
+				26717B791A8A80DC00B9D35E /* Products */,
+				3CA6D98C4197B48C071E6469 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26717B791A8A80DC00B9D35E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26717B781A8A80DC00B9D35E /* InlinePicker.app */,
+				26717B8D1A8A80DC00B9D35E /* InlinePickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26717B7A1A8A80DC00B9D35E /* InlinePicker */ = {
+			isa = PBXGroup;
+			children = (
+				26717B7D1A8A80DC00B9D35E /* AppDelegate.swift */,
+				26717BA51A8A830400B9D35E /* CustomPickerCell.swift */,
+				26717BB11A8B430E00B9D35E /* CustomPickerValueCell.swift */,
+				26717BA31A8A82F200B9D35E /* DatePickerCell.swift */,
+				26717B9F1A8A82C400B9D35E /* DatePickerValueCell.swift */,
+				26717B841A8A80DC00B9D35E /* Images.xcassets */,
+				26717B861A8A80DC00B9D35E /* LaunchScreen.xib */,
+				26717B811A8A80DC00B9D35E /* Main.storyboard */,
+				26717BA71A8A834A00B9D35E /* MyDataSource.swift */,
+				26717B9D1A8A812700B9D35E /* MyTableViewController.swift */,
+				26717BA11A8A82DE00B9D35E /* SimpleInfoCell.swift */,
+				26717BA91A8A83C200B9D35E /* StoryboardIdentifiers.swift */,
+				26717B7B1A8A80DC00B9D35E /* Supporting Files */,
+				26717BAB1A8A9FF500B9D35E /* UIKitExtensions.swift */,
+			);
+			path = InlinePicker;
+			sourceTree = "<group>";
+		};
+		26717B7B1A8A80DC00B9D35E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26717B7C1A8A80DC00B9D35E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26717B901A8A80DC00B9D35E /* InlinePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				26717B911A8A80DC00B9D35E /* Supporting Files */,
+				2667C8311A91F0C000E42127 /* InlinePickerTests.m */,
+			);
+			path = InlinePickerTests;
+			sourceTree = "<group>";
+		};
+		26717B911A8A80DC00B9D35E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26717B921A8A80DC00B9D35E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CA6D98C4197B48C071E6469 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9ABAE7F7E9C0E71B5E1511E6 /* libPods-InlinePickerTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26717B771A8A80DC00B9D35E /* InlinePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26717B971A8A80DC00B9D35E /* Build configuration list for PBXNativeTarget "InlinePicker" */;
+			buildPhases = (
+				26717B741A8A80DC00B9D35E /* Sources */,
+				26717B751A8A80DC00B9D35E /* Frameworks */,
+				26717B761A8A80DC00B9D35E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InlinePicker;
+			productName = InlinePicker;
+			productReference = 26717B781A8A80DC00B9D35E /* InlinePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26717B8C1A8A80DC00B9D35E /* InlinePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26717B9A1A8A80DC00B9D35E /* Build configuration list for PBXNativeTarget "InlinePickerTests" */;
+			buildPhases = (
+				26717B891A8A80DC00B9D35E /* Sources */,
+				26717B8A1A8A80DC00B9D35E /* Frameworks */,
+				26717B8B1A8A80DC00B9D35E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26717B8F1A8A80DC00B9D35E /* PBXTargetDependency */,
+			);
+			name = InlinePickerTests;
+			productName = InlinePickerTests;
+			productReference = 26717B8D1A8A80DC00B9D35E /* InlinePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26717B701A8A80DC00B9D35E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = shg;
+				TargetAttributes = {
+					26717B771A8A80DC00B9D35E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					26717B8C1A8A80DC00B9D35E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 26717B771A8A80DC00B9D35E;
+					};
+				};
+			};
+			buildConfigurationList = 26717B731A8A80DC00B9D35E /* Build configuration list for PBXProject "InlinePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26717B6F1A8A80DC00B9D35E;
+			productRefGroup = 26717B791A8A80DC00B9D35E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26717B771A8A80DC00B9D35E /* InlinePicker */,
+				26717B8C1A8A80DC00B9D35E /* InlinePickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26717B761A8A80DC00B9D35E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26717B831A8A80DC00B9D35E /* Main.storyboard in Resources */,
+				26717B881A8A80DC00B9D35E /* LaunchScreen.xib in Resources */,
+				26717B851A8A80DC00B9D35E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26717B8B1A8A80DC00B9D35E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26717B741A8A80DC00B9D35E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26717BA61A8A830400B9D35E /* CustomPickerCell.swift in Sources */,
+				26717B9E1A8A812700B9D35E /* MyTableViewController.swift in Sources */,
+				26717BAC1A8A9FF500B9D35E /* UIKitExtensions.swift in Sources */,
+				26717BA21A8A82DE00B9D35E /* SimpleInfoCell.swift in Sources */,
+				26717BB21A8B430E00B9D35E /* CustomPickerValueCell.swift in Sources */,
+				26717BA01A8A82C400B9D35E /* DatePickerValueCell.swift in Sources */,
+				26717B7E1A8A80DC00B9D35E /* AppDelegate.swift in Sources */,
+				26717BAA1A8A83C200B9D35E /* StoryboardIdentifiers.swift in Sources */,
+				26717BA41A8A82F200B9D35E /* DatePickerCell.swift in Sources */,
+				26717BA81A8A834A00B9D35E /* MyDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26717B891A8A80DC00B9D35E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2667C8321A91F0C000E42127 /* InlinePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26717B8F1A8A80DC00B9D35E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26717B771A8A80DC00B9D35E /* InlinePicker */;
+			targetProxy = 26717B8E1A8A80DC00B9D35E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26717B811A8A80DC00B9D35E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26717B821A8A80DC00B9D35E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26717B861A8A80DC00B9D35E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26717B871A8A80DC00B9D35E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26717B951A8A80DC00B9D35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26717B961A8A80DC00B9D35E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26717B981A8A80DC00B9D35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InlinePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26717B991A8A80DC00B9D35E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InlinePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26717B9B1A8A80DC00B9D35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InlinePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InlinePicker.app/InlinePicker";
+			};
+			name = Debug;
+		};
+		26717B9C1A8A80DC00B9D35E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InlinePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InlinePicker.app/InlinePicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26717B731A8A80DC00B9D35E /* Build configuration list for PBXProject "InlinePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26717B951A8A80DC00B9D35E /* Debug */,
+				26717B961A8A80DC00B9D35E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26717B971A8A80DC00B9D35E /* Build configuration list for PBXNativeTarget "InlinePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26717B981A8A80DC00B9D35E /* Debug */,
+				26717B991A8A80DC00B9D35E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26717B9A1A8A80DC00B9D35E /* Build configuration list for PBXNativeTarget "InlinePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26717B9B1A8A80DC00B9D35E /* Debug */,
+				26717B9C1A8A80DC00B9D35E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26717B701A8A80DC00B9D35E /* Project object */;
+}
